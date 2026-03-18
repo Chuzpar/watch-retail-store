@@ -1,0 +1,11 @@
+body {
+    margin: 0%;
+}
+.top-bar {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    display: flex;
+    gap : 20px;
+    justify-content: center;
+}
