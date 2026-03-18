@@ -5,9 +5,7 @@ body {
     padding: 10px;
     color: white;
     background-color: black;
-    display: flex;
-    gap : 20px;
-    justify-content: center;
+    text-align: center;
 }
 .navbar {
     text-align: center;
@@ -60,4 +58,7 @@ h2 { text-align: center;
 .card:hover {
     transform: scale(1.05);
     transition: 0.3s;
+}
+.top-bar button {
+    text-decoration: underline;
 }
