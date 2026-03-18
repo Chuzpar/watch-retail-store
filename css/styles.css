@@ -9,3 +9,8 @@ body {
     gap : 20px;
     justify-content: center;
 }
+.navbar {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
