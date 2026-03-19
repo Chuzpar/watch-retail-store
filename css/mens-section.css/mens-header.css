@@ -44,10 +44,17 @@
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 5px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .header-img {
   width: 40px;
   height: 40px;
 }
+
+.account-button:hover , .cart-button:hover {
+  transform: scale(1.05);
+}
+
+
 
