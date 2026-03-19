@@ -77,14 +77,6 @@ body {
   margin: 0;
   color: black;
 }
-button {
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: underline;
-}
 .nav {
     gap: 400px;
     display: flex;
