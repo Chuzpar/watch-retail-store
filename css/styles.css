@@ -44,11 +44,26 @@ body {
     gap: 20px;
     justify-content: center;
 }   
+
 .card {
-  width: 300px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 8px;
+  width: 280px;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card p {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 .card img {
     width: 100%;
