@@ -26,5 +26,11 @@
   border: none;
   padding: 10px;
   color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease, border 0.3s ease;
 }
 
+.brands button:hover{
+  background-color: #fff;
+  transform: scale(1.05);
+  border: solid 1px black;
+}
