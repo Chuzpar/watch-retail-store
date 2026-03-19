@@ -15,8 +15,10 @@ body {
     gap: 20px;
 }
 .navbar {
-    text-align: center;
-    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    justify-content: space-between;
 }
 .hero {
     width: 100%;
@@ -67,4 +69,22 @@ h2 { text-align: center;
 .card:hover {
     transform: scale(1.05);
     transition: 0.3s;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: gray;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
