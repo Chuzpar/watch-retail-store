@@ -56,5 +56,10 @@
   transform: scale(1.05);
 }
 
+.buttons-div{
+  display: flex;
+  gap: 10px;
+}
+
 
 
