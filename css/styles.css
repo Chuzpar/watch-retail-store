@@ -6,9 +6,13 @@ body {
     color: white;
     background-color: black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
 }
 .navbar {
     text-align: center;
+    font-size: x-large;
 }
 .hero {
     width: 100%;
@@ -41,15 +45,15 @@ body {
   color: black;
 }
 button {
-    padding: 10px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .nav {
-    gap: 20px;
+    gap: 400px;
+    display: flex;
     justify-content: center;
 }
 h2 { text-align: center;
@@ -58,7 +62,4 @@ h2 { text-align: center;
 .card:hover {
     transform: scale(1.05);
     transition: 0.3s;
-}
-.top-bar button {
-    text-decoration: underline;
 }
