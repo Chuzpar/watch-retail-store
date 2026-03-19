@@ -67,6 +67,13 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.prod-details-div button:hover{
+  background-color: #fff;
+  color: black;
+  transform: scale(1.05);
+  border: solid 1px black;
+}
+
 
 
 
